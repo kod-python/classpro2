@@ -155,7 +155,7 @@ h3{
 .food-menu-desc{
     width: 70%;
     float: left;
-    margin:2% 0;
+    margin-left: 20px;
 }
 
 .food-detail{
