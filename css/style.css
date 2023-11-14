@@ -72,14 +72,25 @@ a:hover{
 h2{
     color: #2f3542;
     margin-bottom: 2%;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 
 h3{
     font-size: 1.5rem;
 }
-/* come back later */
 
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
 
 .logo{
     width: 15%;
@@ -171,6 +182,7 @@ h3{
 .social{
   
   background-color: rgb(126, 41, 58);  
+  margin-left: 500px;
 
 }
 .social li{
@@ -201,6 +213,8 @@ h3{
     background-color: crimson;
     color: white;
     font-size: 1.2rem;
+    text-align: center;
+    
    
   
 }
